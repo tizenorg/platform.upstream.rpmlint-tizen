@@ -55,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,0755)
-%doc COPYING
+%license COPYING
 %dir /etc/rpmlint
 /etc/rpmlint/factory.config
 
