@@ -25,11 +25,11 @@
 # This line is mandatory to access the configuration functions
 from Config import *
 
-setOption("BadnessThreshold", 1000)
+setOption("BadnessThreshold", 2000)
 
 # score table
 setBadness('arch-dependent-file-in-usr-share', 590)
-setBadness('infopage-not-gzipped', 540)
+setBadness('infopage-not-gzipped', 100)
 setBadness('wrong-script-interpreter', 533)
 setBadness('arch-independent-package-contains-binary-or-object', 499)
 setBadness('library-without-ldconfig-postin', 300)

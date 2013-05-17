@@ -1,3 +1,6 @@
+* Fri May 17 2013 Anas Nashif <anas.nashif@intel.com> submit/tizen/20130509.184109@4a7a263
+- increase badness threshold
+
 * Wed Mar 06 2013 Anas Nashif <anas.nashif@intel.com> 0586c36
 - Remove suse specific rules
 
