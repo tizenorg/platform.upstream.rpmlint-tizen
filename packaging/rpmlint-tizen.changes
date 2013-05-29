@@ -1,3 +1,6 @@
+* Wed May 29 2013 Anas Nashif <anas.nashif@intel.com> submit/tizen/20130517.201355@eb1e167
+- placeholders should cause errors
+
 * Fri May 17 2013 Anas Nashif <anas.nashif@intel.com> submit/tizen/20130509.184109@4a7a263
 - increase badness threshold
 

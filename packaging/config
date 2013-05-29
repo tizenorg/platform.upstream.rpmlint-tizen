@@ -29,7 +29,8 @@ setOption("BadnessThreshold", 2000)
 
 # score table
 setBadness('arch-dependent-file-in-usr-share', 590)
-setBadness('infopage-not-gzipped', 100)
+setBadness('license-placeholder-not-allowed', 2000)
+setBadness('group-placeholder-not-allowed', 2000)
 setBadness('wrong-script-interpreter', 533)
 setBadness('arch-independent-package-contains-binary-or-object', 499)
 setBadness('library-without-ldconfig-postin', 300)
