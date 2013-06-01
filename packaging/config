@@ -29,10 +29,10 @@ setOption("BadnessThreshold", 2000)
 
 # score table
 setBadness('arch-dependent-file-in-usr-share', 590)
-setBadness('license-placeholder-not-allowed', 533)
-setBadness('group-placeholder-not-allowed', 533)
+setBadness('license-placeholder-not-allowed', 200)
+setBadness('group-placeholder-not-allowed', 200)
 setBadness('wrong-script-interpreter', 533)
-setBadness('no-description-tag', 533)
+setBadness('no-description-tag', 200)
 setBadness('arch-independent-package-contains-binary-or-object', 499)
 setBadness('library-without-ldconfig-postin', 300)
 setBadness('library-without-ldconfig-postun', 300)
