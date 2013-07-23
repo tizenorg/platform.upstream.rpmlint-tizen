@@ -27,10 +27,17 @@ from Config import *
 
 setOption("BadnessThreshold", 2000)
 
-# score table
-setBadness('arch-dependent-file-in-usr-share', 590)
+setBadness('license-file-in-docs', 200)
+setBadness('non-standard-group', 200)
 setBadness('license-placeholder-not-allowed', 200)
 setBadness('group-placeholder-not-allowed', 200)
+setBadness('tizen-filelist-forbidden-fhs23', 200)
+setBadness('invalid-license', 200)
+setBadness('dir-or-file-in-tmp', 500)
+
+
+# score table
+setBadness('arch-dependent-file-in-usr-share', 590)
 setBadness('wrong-script-interpreter', 533)
 setBadness('no-description-tag', 200)
 setBadness('arch-independent-package-contains-binary-or-object', 499)
