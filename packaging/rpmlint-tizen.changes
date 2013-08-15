@@ -1,3 +1,6 @@
+* Thu Aug 15 2013 Anas Nashif <anas.nashif@intel.com> accepted/tizen/20130726.201253@aee5003
+- make fhs lints warnings instead of errors
+
 * Thu Jul 25 2013 Anas Nashif <anas.nashif@intel.com> accepted/tizen/20130710.214743@e73d587
 - set badness on some common cases
 

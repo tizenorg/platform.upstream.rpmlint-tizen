@@ -31,9 +31,8 @@ setBadness('license-file-in-docs', 200)
 setBadness('non-standard-group', 200)
 setBadness('license-placeholder-not-allowed', 200)
 setBadness('group-placeholder-not-allowed', 200)
-setBadness('tizen-filelist-forbidden-fhs23', 200)
 setBadness('invalid-license', 200)
-setBadness('dir-or-file-in-tmp', 500)
+setBadness('dir-or-file-in-tmp', 200)
 
 
 # score table
