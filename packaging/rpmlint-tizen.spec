@@ -45,6 +45,9 @@ Forbid invalid licenses
 cp %{SOURCE1} .
 
 %build
+export CFLAGS+=" -fvisibility=hidden"
+  export CXXFLAGS+=" -fvisibility=hidden"
+  
 
 %install
 install -m 644 -D %{SOURCE2} $RPM_BUILD_ROOT/etc/rpmlint/factory.config
